@@ -3,11 +3,12 @@ body{
     color: #333;
     font-family: sans-serif;
     font-size:15px;
+    margin: 100px;
    }
    #wrapper{
     background: #fff;
-    width: 1100px;
-    margin: 20px auto;
+    /* width: 1100px; */
+    /* margin: 20px auto; */
    }
    #wrapper header{
     background: #232323;
@@ -47,4 +48,5 @@ body{
    }
    section{
     padding: 20px;
+    background-color: #fff;
    }

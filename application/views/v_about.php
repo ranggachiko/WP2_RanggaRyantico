@@ -16,6 +16,10 @@
         <li>Seattle, USA</li>
     </ul>
 
+    <h4>Hobi</h4>
+    <ul type="none">
+        <li>Travelling, makan</li>
+    </ul>
     <h4>Olahraga Favorit</h4>
     <ul type="square">
         <li>Badminton</li>
