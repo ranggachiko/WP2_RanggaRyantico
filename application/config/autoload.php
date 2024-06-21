@@ -58,6 +58,7 @@ $autoload['packages'] = array();
 |
 |	$autoload['libraries'] = array('user_agent' => 'ua');
 */
+// Library yang akan kita load secara otomatis adalah database, session dan form_validation.
 $autoload['libraries'] = array('form_validation', 'session', 'database');
 
 /*
@@ -89,7 +90,8 @@ $autoload['drivers'] = array();
 |
 |	$autoload['helper'] = array('url', 'file');
 */
-$autoload['helper'] = array('url');
+// helper yang akan kita load secara otomatis adalah url.
+$autoload['helper'] = array('url', 'pustaka_helper');
 
 /*
 | -------------------------------------------------------------------
@@ -132,4 +134,5 @@ $autoload['language'] = array();
 |
 |	$autoload['model'] = array('first_model' => 'first');
 */
-$autoload['model'] = array('ModelUser','ModelBuku','ModelDlemas');
+// agar model-model yang sudah dibuat bisa digunakan dan di load secara otomatis. Jadi tidak perlu lagi kita load dari controller.
+$autoload['model'] = array('ModelUser', 'ModelBuku');
